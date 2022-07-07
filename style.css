@@ -1,12 +1,17 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: roboto, sans-serif;
 }
 
+section {
+  padding: 1rem;
+}
 .principal {
   display: flex;
   flex-direction: row;
   background-color: #5d81d1;
+  align-items: center;
   justify-content: space-between;
   font-size: small;
   height: 3rem;
@@ -14,19 +19,37 @@
 
 .opciones-lista {
   list-style: none;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  font-size: x-small;
 }
 
 .recuentoitems {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #ff8d26;
+  background-color: #ff6400;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
 }
 
+.recuentoitems img {
+  width: 30px;
+}
 .botonsuma {
   padding: 10px;
 }
 
-li {
-  display: inline;
+.formulario {
+  background-color: #ff8d26;
+  min-height: 100%;
+}
+
+button {
+  background: #5d81d1;
 }
