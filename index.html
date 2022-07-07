@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -17,19 +23,18 @@
     </section>
     <section class="recuentoitems">
       <a href="" class="botonsuma"
-        ><img
-          src="circle-plus-solid.svg"
-          alt="botonañadir"
-          width="50"
-          height="50"
+        ><img src="circle-plus-solid.svg" alt="botonañadir"
       /></a>
       <span>2/3 comprados</span>
     </section>
-    <section>
+    <section class="formulario">
       <h2>Editar Artículo</h2>
-      <form action="">
-        <label for=""></label>
+      <form class="form">
+        <label for="nombre">Nombre:</label> <input type="text" />
+        <label for="precio">Precio:</label>
+        <div><input type="text" /> €</div>
       </form>
+      <button>MODIFICAR</button>
     </section>
   </body>
 </html>
