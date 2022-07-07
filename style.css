@@ -13,6 +13,8 @@ section {
   background-color: #5d81d1;
   align-items: center;
   justify-content: space-between;
+  font-size: small;
+  height: 3rem;
 }
 
 .opciones-lista {
