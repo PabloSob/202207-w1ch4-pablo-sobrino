@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .principal {
@@ -7,6 +8,8 @@
   flex-direction: row;
   background-color: #5d81d1;
   justify-content: space-between;
+  font-size: small;
+  height: 3rem;
 }
 
 .opciones-lista {
@@ -22,4 +25,8 @@
 
 .botonsuma {
   padding: 10px;
+}
+
+li {
+  display: inline;
 }
