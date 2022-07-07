@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  background-color: #5d81d1;
+  justify-content: space-between;
+}
+
+.opciones-lista {
+  list-style: none;
+}
+
+.recuentoitems {
+  display: flex;
+  flex-direction: row;
+}
