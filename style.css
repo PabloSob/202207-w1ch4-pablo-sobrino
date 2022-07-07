@@ -47,9 +47,19 @@ section {
 
 .formulario {
   background-color: #ff8d26;
-  min-height: 100%;
+  height: 100vh;
 }
 
 button {
   background: #5d81d1;
+  border: none;
+  color: rgb(242, 242, 242);
+}
+
+li {
+  margin: 0 5px;
+}
+
+.active {
+  font-weight: bold;
 }
