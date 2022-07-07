@@ -63,3 +63,18 @@ li {
 .active {
   font-weight: bold;
 }
+
+.lista-seleccionados {
+  background-color: #ff8d26;
+  height: 100vh;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.total {
+  text-align: end;
+}
